@@ -1,7 +1,5 @@
 # Environments
 *venv/
 
-# csv
+# Data
 data/df_python_emotion.csv
-
-/data

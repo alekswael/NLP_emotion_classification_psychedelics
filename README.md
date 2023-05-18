@@ -19,6 +19,7 @@ The dataset used for this project was originally obtained for use in the author'
 The model used for the emotion classification task is the `j-hartmann/emotion-english-distilroberta-base` transformer model from the HuggingFace platform (Jochen Hartmann, "Emotion English DistilRoBERTa-base". [HuggingFace link](https://huggingface.co/j-hartmann/emotion-english-distilroberta-base/), 2022). The model is a finetuned version of the `distilroberta-base` model. It predicts Ekman's 6 basic emotions plus a neutral class: `anger`, `disgust`, `fear`, `joy`, `neutral`, `sadness` and `surprise`.
 
 ### Pipeline
+The `psych_classification.py` follows these steps:
 1. Imports necessary packages
 2. Set up a text classification pipeline
 3. Load data
