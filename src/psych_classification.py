@@ -1,5 +1,6 @@
 # Importing packages
 from transformers import pipeline
+import tensorflow as tf
 import pandas as pd
 import numpy as np
 import os
@@ -19,7 +20,7 @@ def pipeline_setup():
 def load_data():
     filename = os.path.join(os.getcwd(), "data", "df_python.csv") # load the data
     data = pd.read_csv(filename, encoding="ISO-8859-1")
-    data = data.sample(n=3, random_state=42) ### TESTING ONLY, REMOVE THIS LINE
+    # data = data.sample(n=3, random_state=42) ### TESTING ONLY, REMOVE THIS LINE
     return data
 
 def perform_emotion_classification(data, classifier):
