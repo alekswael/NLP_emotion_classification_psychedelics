@@ -1,6 +1,5 @@
 <br />
   <h1 align="center">Emotion classification of psychedelic trip reports</h1> 
-  <h2 align="center">Cultural Data Science @ AU, 2023</h2> 
   <h3 align="center">
   Author: Aleksander Moeslund Wael <br>
   </h3>
