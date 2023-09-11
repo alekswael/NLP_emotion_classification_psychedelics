@@ -1,9 +1,8 @@
 <br />
-  <h1 align="center">Assignment 5: Emotion classification of psychedelic trip reports</h1> 
-  <h2 align="center">Cultural Data Science, 2023</h2> 
+  <h1 align="center">Emotion classification of psychedelic trip reports</h1> 
+  <h2 align="center">Cultural Data Science @ AU, 2023</h2> 
   <h3 align="center">
   Author: Aleksander Moeslund Wael <br>
-  Student no. 202005192
   </h3>
 </p>
 
